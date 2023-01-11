@@ -35,12 +35,13 @@
 ---------------------------------------------------------------------*/
 
 body {
-	color: #fafbf6;
+	color: #f9f9f9;
 	font-size: 14px;
 	font-family: 'poppins', sans-serif;
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
+	background-color: #f9f9f9;
 }
 
 a {
@@ -242,7 +243,7 @@ button {
     width: 70%;
     content: "";
     max-height: 485px;
-    background: #184091;
+    background: #565a75;
     position: absolute;
     top: 28%;
     height: 100%;
@@ -1783,6 +1784,13 @@ input[type="radio"] .styled:checked+label::after {
     color: #fff;
 }
 
+.button_page a{
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
 .orange_color {
 	color: #c6b7be;
 }
@@ -2100,7 +2108,7 @@ ul.social_icon li a {
 
 
 .About-bg {
-	background-color: #f6f6f6f6;
+	background-color: #f9f9f9;
 }
 
 .About-bg .aboutheading h3 { 
@@ -2113,7 +2121,7 @@ ul.social_icon li a {
 }
 
 .Marketing-bg {
-	background-color: #f6f6f6f6;
+	background-color: #f9f9f9;
 }
 
 .Marketing-bg .Marketingheading h3 { 
@@ -2126,7 +2134,7 @@ ul.social_icon li a {
 }
 
 .Blog-bg {
-	background-color: #f6f6f6f6;
+	background-color: #f9f9f9;
 }
 
 .Blog-bg .Blogheading h3 { 
@@ -2140,7 +2148,7 @@ ul.social_icon li a {
 
 
 .contact-bg {
-	background-color: #f6f6f6f6;
+	background-color: #f9f9f9;
 }
 
 .contact-bg .contactheading h3 { 

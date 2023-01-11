@@ -90,7 +90,7 @@
             
             <div class="row">
                <div class="col-md-6">
-                  <img src="images/compositing_thumbnail.jpg" alt="#" />
+                  <img id="greenscreen" src="images/compositing_thumbnail.jpg" alt="#" />
                </div>
                <div class="col-md-6">
                   <div class="full blog_cont">
@@ -121,7 +121,10 @@
                      <h5>2021/22 - HTWK Leipzig</h5>
                      <p>Cross-media project that ran over two semesters and was realized in collaboration with five other students.</p><p> The results include a website, a podcast, a video series, an Instagram account as well as a print template and an enhanced eBook version of the original work.</p>
                      <p>I created the website and the podcast in particular.</p>
-                     </div>
+                     <div class="button_section full margin_top_30 button_page">
+                        <a style="margin:0; display: flex; align-items: center; justify-content: center;" href="https://www.instagram.com/detektivdupin/" target="_blank"><i class="fa fa-instagram"></i></a>
+                     </div>    
+                  </div>
                </div>
             </div>
             <div class="row margin_top_50">
@@ -130,16 +133,19 @@
                                  <h4>How does the brain react to beauty?</h4>
                                  <h5>2021 - HTWK Leipzig</h5>
                                  <p>Examination project for the course <i>Computer Animation</i> in Blender. The animation was created in collaboration with four other students for an exhibition project of the Museology students.</p>
+                                 <div class="button_section full margin_top_30 button_page">
+                                    <a style="margin:0; display: flex; align-items: center; justify-content: center;" href="https://mediaserver.htwk-leipzig.de/videos/gehirn/" target="_blank">HTWK  <i class="fa fa-external-link" style="margin-left: 10px;"></i></a>
+                                 </div> 
                               </div>
                            </div>
                            <div class="col-md-6">
-                              <a href="https://mediaserver.htwk-leipzig.de/videos/gehirn/" target="_blank" rel="nofollow"><img src="images/blender_animation_thumbnail.jpg" alt="#" /></a>
+                              <a href="https://mediaserver.htwk-leipzig.de/videos/gehirn/" target="_blank" rel="nofollow"><img id="blender" src="images/blender_animation_thumbnail.jpg" alt="#" /></a>
                            </div>
                            
                         </div>
                         <div class="row margin_top_50">
                            <div class="col-md-6">
-                             <img src="images/western_thumbnail.jpg" alt="#" />
+                             <img id="western"src="images/western_thumbnail.jpg" alt="#" />
                            </div>
                            <div class="col-md-6">
                               <div class="full blog_cont">
@@ -239,5 +245,42 @@
       <!-- Scrollbar Js Files -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script>
+         $(function() {
+             $("#greenscreen").hover(
+                 function() {
+                     $(this).attr("src", "images/greenscreen gif.gif");
+                 },
+                 function() {
+                     $(this).attr("src", "images/compositing_thumbnail.jpg");
+                 }                         
+             );                  
+         });
+     </script>
+           <script>
+            $(function() {
+                $("#blender").hover(
+                    function() {
+                        $(this).attr("src", "images/blenderanimation.gif");
+                    },
+                    function() {
+                        $(this).attr("src", "images/blender_animation_thumbnail.jpg");
+                    }                         
+                );                  
+            });
+            </script>
+                 </script>
+                 <script>
+                  $(function() {
+                      $("#western").hover(
+                          function() {
+                              $(this).attr("src", "images/western.gif");
+                          },
+                          function() {
+                              $(this).attr("src", "images/western_thumbnail.jpg");
+                          }                         
+                      );                  
+                  });
+                  </script>
    </body>
 </html>
