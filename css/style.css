@@ -2201,14 +2201,31 @@ ul.social_icon li a {
 }
   }
   
+
+
+  @media only screen and (max-width: 575px)
+  {
+	.slider_cont_section h3 {
+		font-size: 42px;
+		color: #fff;
+		font-weight: 600;
+		margin: -10px 0 25px 0;
+		padding: 0;
+		line-height: normal;
+	}
+  }
+
   @media only screen and (max-width: 369px)
   {
 	.slider_cont_section h3 {
-		font-size: 35px;
-	}	
+		font-size: 31px;
+		color: #fff;
+		font-weight: 600;
+		margin: -10px 0 25px 0;
+		padding: 0;
+		line-height: normal;
+	}
   }
-
-
   @media only screen and (max-width: 449px)
   {
   	.button_section a {
