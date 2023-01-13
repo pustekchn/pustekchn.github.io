@@ -2182,6 +2182,18 @@ ul.social_icon li a {
 	}
   }
 
+  @media only screen and (max-width: 768px) {
+#block_1{
+	flex-direction: column-reverse;
+}
+#block_2{
+	flex-direction: column-reverse;
+}
+.blog_cont h3{
+	margin: 10px 0 20px 0;
+}
+  }
+
 @media only screen and (min-width: 768px) and (max-width: 1199px)
 {
 	.button_section a {
