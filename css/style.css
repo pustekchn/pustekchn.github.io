@@ -2232,13 +2232,13 @@ ul.social_icon li a {
 		margin-bottom: 20px;
 	}	
   }
-
-  @media only screen and (max-width: 767px)
+  @media only screen and (max-width: 499px)
   {
-  .banner-slider {
-    margin-top: 5px;
+  	.button_section a {
+		margin-bottom: 20px;
+	}	
   }
-}
+
 @media only screen and (min-width: 768px) and (max-width: 1199px)
 {
 	.button_section a {
