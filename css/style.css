@@ -1678,7 +1678,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .limit-box {
-    margin: 48px 0 0;
+    margin: 0;
 }
 
 .main-menu ul.menu-area-main li {
@@ -2043,7 +2043,7 @@ footer {
     align-items: center;
     align-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -2168,13 +2168,122 @@ ul.social_icon li a {
 .wdt {height: 250px !important;}
 
 
+@media only screen and (max-width: 991px) {
+	.logo_section::after {
+	  display:none;
+	}
+	#slider_main a.carousel-control-prev {
+		position: absolute;
+		left: -31px;
+		top: 30%;
+	}
+	.menu-area{
+		margin: 0;
+	}
+  }
 
+@media only screen and (min-width: 768px) and (max-width: 1199px)
+{
+	.button_section a {
+		margin-bottom: 20px;
+	}
+	#slider_main a.carousel-control-prev {
+		position: absolute;
+		top: 30%;
+	}
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1045px)
+{
+	.col-md-7 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.col-md-5 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.carousel-inner {
+		position: relative;
+		width: 70%;
+		overflow: hidden;
+		margin-right: 0;
 
+	}
+	#slider_main{
+		margin-left: auto;
+		display: flex;
+		justify-content: center;
+	}
+	.slider_cont_section {
+		padding: 35px 30px 45px;
+	}
+	#slider_main a.carousel-control-prev {
+		left: 85px;
+	}
+	#slider_main a.carousel-control-next {
+		left: 85px;
+	}
+	.slider_cont_section h4 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+	}
+	.slider_cont_section h3 {
+		font-size: 42px;
+		color: #fff;
+		font-weight: 600;
+		margin: -10px 0 25px 0;
+		padding: 0;
+		line-height: normal;
+	}
+	.slider_cont_section p {
+		display: block;
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 28px;
+		padding-right: 15px;
+		color: #fff;
+	}
+}
 
+@media only screen and (min-width: 753px) and (max-width: 767px){
 
+	.main-menu ul>li a {
+		padding: 15px 15px 15px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1045px)
+{
+	.slider_cont_section {
+		padding: 35px 30px 45px;
+	}
 
+}
+@media only screen and (min-width: 992px) {
+	.main-menu ul > li a{
+		padding: 48px 24px 0 24px;
+	}
 
+}
+@media only screen and (min-width: 992px) {
+	.main-menu {
+		margin: 30px 0 0;
+	}
 
+}
 
+@media only screen and (min-width: 1621px) and (max-width: 1901px)
+{
+	.slider_cont_section h3{
+		font-size: 50px;
+	}
+}
+@media only screen and (min-width: 1902px) {
+	.slider_cont_section h3{
+		font-size: 70px;
+	}
 
+}

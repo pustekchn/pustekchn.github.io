@@ -436,7 +436,7 @@
 		margin: 0px 0px;
 	}
 	.menu-area-main {
-		height: 256px;
+		height: auto;
 		overflow-y: auto;
 	}
 	.megamenu>.row [class*="col-"] {
@@ -1352,7 +1352,7 @@
 	/**-- end section --**/
 
 .limit-box {
-    margin: 0;
+	margin: 27px 0 0;
 }
 
 .main-menu ul.menu-area-main li {
@@ -1372,12 +1372,12 @@
     margin-left: 35px;
     margin-bottom: 0;
 }
-
+/*
 #slider_main a.carousel-control-prev {
     position: absolute;
     left: -31px;
-    top: 20%;
-}
+    top: 30%;
+}*/
 
 .slider_cont_section h4 {
     font-size: 30px;
@@ -1395,20 +1395,24 @@
 }
 
 .slider_cont_section p {
-    display: none;
+    /*display: none;*/
+	margin-bottom: 10px;
 }
 
 .button_section a {
-    width: 135px;
-    height: 50px;
+
+    width: 180px;
+    height: 55px;
     float: left;
-    background: #000;
+    background: #565a75;
     text-align: center;
-    line-height: 50px;
+    line-height: 55px;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 30px;
     font-weight: 300;
     font-size: 16px;
+
+
 }
 
 .button_section {
@@ -1418,7 +1422,8 @@
 }
 
 .slider_cont_section {
-    padding: 90px 0 0;
+    padding:  35px 30px 45px;
+	}
 }
 
 .banner-slider {
@@ -1469,7 +1474,7 @@ p {
 }
 
 .menu-area {
-    margin: 30px 0 0;
+    margin: 0px 0 0;
 }
 
 .footer_links ol li {
@@ -1479,7 +1484,7 @@ p {
 }
 
 
-}
+
 
 
 /**-- big tablet --**/
@@ -1625,13 +1630,13 @@ p {
     margin-left: 35px;
     margin-bottom: 0;
 }
-
+/*
 #slider_main a.carousel-control-prev {
     position: absolute;
     left: -31px;
-    top: 20%;
+    top: 30%;
 }
-
+*/
 .slider_cont_section h4 {
     font-size: 30px;
     font-weight: 600;
@@ -1648,18 +1653,18 @@ p {
 }
 
 .slider_cont_section p {
-    display: none;
+    /*display: none;*/
 }
 
 .button_section a {
-    width: 135px;
-    height: 50px;
+    width: 180px;
+    height: 55px;
     float: left;
-    background: #000;
+    background: #565a75;
     text-align: center;
-    line-height: 50px;
+    line-height: 55px;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 30px;
     font-weight: 300;
     font-size: 16px;
 }
@@ -1671,7 +1676,7 @@ p {
 }
 
 .slider_cont_section {
-    padding: 90px 0 0;
+    padding: 35px 30px 45px;
 }
 
 .banner-slider {
@@ -1999,22 +2004,22 @@ p {
 }
 
 .button_section a {
-    width: 135px;
-    height: 50px;
+    width: 180px;
+    height: 55px;
     float: left;
-    background: #000;
+    background: #565a75;
     text-align: center;
     line-height: 55px;
     color: #fff;
-    margin-right: 9px;
+    margin-right: 30px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .heading h3 {
     font-size: 45px;
     font-weight: 700;
-    line-height: 0;
+    line-height: 45px;
     margin-bottom: 50px;
 }
 
@@ -2493,22 +2498,22 @@ p {
 }
 
 .button_section a {
-    width: 135px;
-    height: 50px;
+    width: 180px;
+    height: 55px;
     float: left;
-    background: #000;
+    background: #565a75;
     text-align: center;
     line-height: 55px;
     color: #fff;
-    margin-right: 9px;
+    margin-right: 30px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .heading h3 {
     font-size: 45px;
     font-weight: 700;
-    line-height: 0;
+    line-height: 45px;
     margin-bottom: 50px;
 }
 
@@ -2594,4 +2599,4 @@ p {
     line-height: 25px;
     color: #212222;
 }
-
+}
