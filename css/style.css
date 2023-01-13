@@ -33,7 +33,14 @@
 /*---------------------------------------------------------------------
     skeleton
 ---------------------------------------------------------------------*/
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
 	color: #f9f9f9;
 	font-size: 14px;
@@ -2192,6 +2199,21 @@ ul.social_icon li a {
 .blog_cont h3{
 	margin: 10px 0 20px 0;
 }
+  }
+  
+  @media only screen and (max-width: 369px)
+  {
+	.slider_cont_section h3 {
+		font-size: 35px;
+	}	
+  }
+
+
+  @media only screen and (max-width: 449px)
+  {
+  	.button_section a {
+		margin-bottom: 20px;
+	}	
   }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px)
