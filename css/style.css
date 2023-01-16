@@ -1960,7 +1960,7 @@ input[type="radio"] .styled:checked+label::after {
 
 footer {
     background: #0f0f1b;
-    min-height: 300px;
+    min-height: 150px;
     padding: 20px 0;
 	display:flex;
 	align-items: center;
@@ -2044,9 +2044,9 @@ footer {
 }
 
 .contact_information {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
-	justify-content: center;
+	justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-direction: row;
@@ -2181,6 +2181,10 @@ ul.social_icon li a {
 .sp {
 	list-style: outside none circle;
 	margin-left: 50px;
+}
+
+.footerlink{
+	color: #fff;
 }
 
 @media only screen and (max-width: 991px) {
