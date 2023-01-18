@@ -2188,6 +2188,57 @@ ul.social_icon li a {
 	color: #fff;
 }
 
+.aboutflex{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerflex{
+	box-sizing: border-box;
+	width:50%;
+}
+
+.aboutsocial{
+	float:inherit;
+	margin-top: 20px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.aboutsocial li a i{
+	color: #565a75;
+}
+
+.aboutsocial li {
+	background: #fff;
+	float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #565a75;
+    margin-right: 10px;
+}
+.aboutsocial li:hover{
+	background: #e4d3db;
+}
+.aboutsocial li a {
+	color: #565a75;
+    font-size: 25px;
+}
+
+
+
 @media only screen and (max-width: 991px) {
 	.logo_section::after {
 	  display:none;
@@ -2199,6 +2250,12 @@ ul.social_icon li a {
 	}
 	.menu-area{
 		margin: 0;
+	}
+	.aboutflex{
+		flex-direction: column;
+	}
+	.innerflex{
+		width: 100%;
 	}
   }
 
