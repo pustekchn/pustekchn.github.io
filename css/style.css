@@ -479,6 +479,7 @@ header {
 }
 
 .logo_section::after {
+	display: inline;
     position: absolute;
     width: 58px;
     height: 122px;

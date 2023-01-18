@@ -1162,7 +1162,7 @@
 }
 
 .limit-box {
-    margin: 27px 0 0;
+    margin: 26px 0 0;
 }
 
 .banner-slider {
@@ -1470,7 +1470,7 @@ p {
 }
 
 .logo_section::after {
-    display: none;
+    /*display: none;*/
 }
 
 .menu-area {
